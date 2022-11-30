@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+}
+#tudo{
+    width: 70%;
+    margin: auto;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:#707070;
+}
+.menu a:hover{
+    color:#3333
+}
+.topo{
+    display: flex;
+
+}
+.destaque-topo{
+    display: flex;
+}
+.destaque .card-destaque{
+    width: 50%;
+   
+}
+.reacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    opacity: 0.4;
+    background-color: silver;
+    margin-top: -30px;
+
+}
+.reacao{
+    color:#000000;
+
+}
+.destaque-centro{
+    display: flex;
+}
+.destaque-rodape{
+    display: flex;
+}
+
+.destaque-centro .card{
+    width: 25%;
+}
+.reacao-topo .card label{
+    font-size: small;
+}
+.reacao-rodape .card{
+    width: 33.33%;
+}
+.rodape{
+    padding:10px;
+    background-color: black;
+}
+.logo-rodape h1{
+    color: white;
+    text-align: center;
+}
+.rodape p{
+    color: white;
+    font-size: small;
+}
+.bi-hand-thumbs-down-fill{
+   color: #FF0000;
+}
+.bi-hand-thumbs-up-fill{
+   color: #FF0000;
+}
+.bi-heart-fill{
+    color: #FF0000;
+}
+
+i{
+    cursor: pointer;
+}
+h2,h6{
+    text-align: center;
+}
